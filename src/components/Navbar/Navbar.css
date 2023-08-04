@@ -1,0 +1,106 @@
+.icon {
+  color: #fff;
+}
+.navbar {
+  width: 100%;
+  height: 80px;
+  color: #fff;
+  background-color: #b77bfc;
+  background-color: #4d0264;
+  background: linear-gradient(119.54deg, #000046 0%, #1cb5e0 100%);
+  background: linear-gradient(90.11deg, #8686fa 0%, #e70b84 100%);
+  background: linear-gradient(90.11deg, #048383e6, rgba(0, 0, 0, 1));
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  z-index: 10;
+  /* overflow: hidden;/ */
+  position: fixed;
+  /* background-attachment: fixed; */
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #eee;
+  z-index: 999;
+}
+.logo {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 3px;
+  margin-right: 20px;
+  /* background-color: #4d0707; */
+}
+
+.link-nav {
+  color: #fff;
+  /* background-color: #4d0264; */
+  padding: 0.7rem 1rem;
+  transition: 0.5s all ease-out;
+  border-radius: 5px;
+}
+
+.link-nav:hover {
+  /* background-color: #000046; */
+  background-color: #048383e6;
+}
+.menu-btn {
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  .menu-btn {
+    cursor: pointer;
+    display: block;
+    color: #fff;
+    font-size: 50px;
+    /* text-align: center; */
+    align-items: center;
+    padding: 1px;
+    /* background-color: #085757; */
+  }
+  .navbar {
+    font-style: normal;
+    z-index: 999;
+    /* overflow: hidden; */
+    /* background-color: #610164;
+    background-color: #2ee747;
+    background-color: #3f0052;
+    background-color: #bc2ee7;
+    background: linear-gradient(119.54deg, #000046 0%, #1cb5e0 100%);
+    background: linear-gradient(to right, #8686fa 0%, #e70b84 100%); */
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 0;
+    line-height: 4;
+    left: -420px;
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+    display: block;
+    color: #fff;
+    background: linear-gradient(to right, #8686fa 0%, #e70b84 100%);
+    background: linear-gradient(90.11deg, #048383e6, rgba(0, 0, 0, 1));
+    overflow: hidden;
+
+    transition: 0.5s ease-in-out;
+    z-index: 999;
+  }
+}

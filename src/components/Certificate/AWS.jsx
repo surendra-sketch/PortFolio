@@ -6,11 +6,6 @@ const AWS = () => {
   return (
     <main className="certificates">
       <Bounce>
-        <section className="aws">
-          <h1>AWS certifictaes is on the way......</h1>
-        </section>
-      </Bounce>
-      <Bounce>
         <section className="react">
           <div className="reac">
             <img src="./images/react.jpg" alt="" />
@@ -22,6 +17,14 @@ const AWS = () => {
           <div className="webd">
             <img src="./images/webdelopment.jpg" alt="" />
           </div>
+        </section>
+      </Bounce>
+      <Bounce>
+        <section className="aws">
+          <h1>
+            Frontend development certificate is on the way......
+            <br /> <span>By FreeCodeCamp</span>
+          </h1>
         </section>
       </Bounce>
     </main>

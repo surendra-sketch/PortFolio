@@ -37,8 +37,8 @@ textarea:hover {
 } */
 
 .contact {
-  margin: 10px;
   /* background-color: #2ff; */
+  padding: 100px 0px;
   position: relative;
   height: 100%;
   display: grid;

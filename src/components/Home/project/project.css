@@ -1,7 +1,9 @@
 .note {
-  margin-top: 100px;
+  background-color: #eee;
+  margin-top: 70px;
   text-align: center;
 }
+
 .projects {
   position: relative;
   width: 100%;
@@ -12,7 +14,7 @@
   align-items: center;
   justify-content: center;
   background-color: #eee;
-  padding: 100px 0px;
+  padding-top: 100px;
 }
 .projects .project {
   width: 300px;

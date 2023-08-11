@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 import "./Skills.css";
 import { MdPhotoCamera, MdHandyman, MdGrid3X3 } from "react-icons/md";
 import { SiCss3, SiGithub, SiHtml5, SiReact } from "react-icons/si";
@@ -18,11 +18,11 @@ const Skills = () => {
             </span>
             <span> Html</span>
           </p>
-          <Fade left>
-            <div className="div-1" style={{ width: "98%" }}>
-              <p>98%</p>
-            </div>
-          </Fade>
+          {/* <Fade left> */}
+          <div className="div-1" style={{ width: "98%" }}>
+            <p>98%</p>
+          </div>
+          {/* </Fade> */}
 
           <p className="skill-cor-icon">
             <span className="skills-icons">
@@ -30,44 +30,44 @@ const Skills = () => {
             </span>
             <span> CSS</span>
           </p>
-          <Fade right>
-            <div className="div-1" style={{ width: "97%" }}>
-              <p>97%</p>
-            </div>
-          </Fade>
+          {/* <Fade right> */}
+          <div className="div-1" style={{ width: "97%" }}>
+            <p>97%</p>
+          </div>
+          {/* </Fade> */}
           <p className="skill-cor-icon">
             <span className="skills-icons">
               <MdGrid3X3 />
             </span>
             <span> C / C++</span>
           </p>
-          <Fade left>
-            <div className="div-1" style={{ width: "90%" }}>
-              <p>90%</p>
-            </div>
-          </Fade>
+          {/* <Fade left> */}
+          <div className="div-1" style={{ width: "90%" }}>
+            <p>90%</p>
+          </div>
+          {/* </Fade> */}
           <p className="skill-cor-icon">
             <span className="skills-icons">
               <MdHandyman />
             </span>
             <span> JS</span>
           </p>
-          <Fade right>
-            <div className="div-1" style={{ width: "77%" }}>
-              <p>77%</p>
-            </div>
-          </Fade>
+          {/* <Fade right> */}
+          <div className="div-1" style={{ width: "77%" }}>
+            <p>77%</p>
+          </div>
+          {/* </Fade> */}
           <p className="skill-cor-icon">
             <span className="skills-icons">
               <SiReact />
             </span>
             <span> React JS</span>
           </p>
-          <Fade left>
-            <div className="div-1" style={{ width: "71%" }}>
-              <p>71%</p>
-            </div>
-          </Fade>
+          {/* <Fade left> */}
+          <div className="div-1" style={{ width: "71%" }}>
+            <p>71%</p>
+          </div>
+          {/* </Fade> */}
 
           <p className="skill-cor-icon">
             <span className="skills-icons">
@@ -76,22 +76,22 @@ const Skills = () => {
             <span> Git & GitHub</span>
           </p>
 
-          <Fade right>
-            <div className="div-1" style={{ width: "70%" }}>
-              <p>70%</p>
-            </div>
-          </Fade>
+          {/* <Fade right> */}
+          <div className="div-1" style={{ width: "70%" }}>
+            <p>70%</p>
+          </div>
+          {/* </Fade> */}
           <p className="skill-cor-icon">
             <span className="skills-icons">
               <MdPhotoCamera />
             </span>
             <span> PhotoShop</span>
           </p>
-          <Fade left>
-            <div className="div-1" style={{ width: "60%" }}>
-              <p>60%</p>
-            </div>
-          </Fade>
+          {/* <Fade left> */}
+          <div className="div-1" style={{ width: "60%" }}>
+            <p>60%</p>
+          </div>
+          {/* </Fade> */}
         </div>
       </div>
     </>

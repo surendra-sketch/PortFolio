@@ -26,7 +26,7 @@ h1 {
   color: #fff;
 
   background: linear-gradient(rgba(4, 131, 131, 0.9), rgba(0, 0, 0, 1)),
-    url("/images/logo.png") no-repeat center center/cover;
+    url("/public/images/logo.png") no-repeat center center/cover;
   /* background: linear-gradient(90.11deg, #8686fa 0%, #e70b84 100%); */
   width: 100%;
   margin: auto;

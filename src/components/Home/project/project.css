@@ -1,9 +1,12 @@
 .note {
   background-color: #eee;
-  margin-top: 70px;
+  padding: 20px;
   text-align: center;
 }
 
+.note h1 {
+  color: #570057;
+}
 .projects {
   position: relative;
   width: 100%;

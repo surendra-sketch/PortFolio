@@ -13,7 +13,7 @@ const Project = () => {
       </div>
       <br />
       <section className="note">
-        <b style={{ color: "red" }}>
+        <b style={{ color: "red", margin: "20px auto" }}>
           Note : Some of these projects are still going on...
         </b>
       </section>

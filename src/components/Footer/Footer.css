@@ -2,17 +2,13 @@
   width: 100%;
   height: 90vh;
   margin: auto;
-  /* background-color: #034a57; */
-  /* background-color: #600186; */
+
   background-color: #000;
-  /* background: linear-gradient(to bottom, #000046 0%, #1cb5e0 100%); */
   background-color: #000046;
-  /* background: linear-gradient(90.11deg, #8686fa 0%, #e70b84 100%); */
 
   background: linear-gradient(to top, #048383e6, rgba(0, 0, 0, 1));
 
   text-align: center;
-  /* padding-top: 100px; */
 }
 .footer h1 {
   color: #fff;
@@ -40,15 +36,15 @@
   text-transform: capitalize;
   font-size: 18px;
   color: #aaa;
-  transition: all 0.4s;
+  transition: all 0.2s;
   line-height: 2;
   padding: 10px 20px;
   border-radius: 5px;
+  text-align: left;
 }
 .footer-link:hover {
   color: #fff;
   font-weight: 500;
-  /* background-color: #6de5fa; */
 }
 .vertical {
   margin-top: 100px;
@@ -61,11 +57,7 @@
   background-color: #000;
   background-color: #e6e6e6;
 
-  /* background: linear-gradient(to bottom, #048383e6, rgba(0, 0, 0, 1)); */
-  /* background: linear-gradient(90.11deg, #8686fa 0%, #e70b84 100%); */
-
   padding: 70px 0px;
-  /* background-color: #000; */
   color: #000000;
   z-index: 999;
 }

@@ -198,7 +198,7 @@ const Footer = () => {
           <div className="ceneter-text-footer">
             <p> &copy; 2023 all rights reserved </p>
             <br />
-            <h6> This website created by Surendra Singh</h6>
+            <h6> This website is created by Surendra Singh</h6>
           </div>
         </div>
       </div>

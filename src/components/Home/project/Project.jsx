@@ -32,6 +32,11 @@ const Project = () => {
                   <b>Description :</b> {project.description}
                   <br />
                   <br />
+                  <p>
+                    Technology: <h6> {project.technology}</h6>
+                  </p>
+                  <br />
+                  <br />
                 </p>
 
                 <a target="_/blank" href={link} className="projectlink">

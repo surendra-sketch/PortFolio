@@ -4,7 +4,7 @@ const ProjectData = [
     projectname: "Weather App ",
     url: "https://surendraweatherapp.netlify.app/",
     description: "This project build with using open weather API ",
-    technology: "react, node ",
+    technology: "react ",
     tools: "vs code  and github, git",
   },
   {
@@ -25,18 +25,18 @@ const ProjectData = [
   },
   {
     id: 3,
-    projectname: "Calculater",
+    projectname: "Calculator",
     url: "https://surendracalculator.netlify.app/",
-    description: " ",
-    technology: " ",
+    description: "This project is created using Vanila JavaScript ",
+    technology: "HTML5 CSS JS ",
     tools: " ",
   },
   {
     id: 4,
     projectname: "Color Changer",
     url: "https://tranquil-pastelito-b066e6.netlify.app/",
-    description: " ",
-    technology: " ",
+    description: "This project is created using Vanila JavaScript  ",
+    technology: " HTML5 CSS JS ",
     tools: " ",
   },
   {
@@ -52,7 +52,7 @@ const ProjectData = [
     projectname: "Console Based ATM",
     url: "https://github.com/surendra-sketch/atm1/blob/main/ATMwithReg.cpp",
     description: " ",
-    technology: " ",
+    technology: "C++ ",
     tools: " ",
   },
 ];

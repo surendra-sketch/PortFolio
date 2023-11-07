@@ -16,6 +16,15 @@ const ProjectData = [
     technology: "react ",
     tools: "vs code  and github, git",
   },
+  {
+    id: 9,
+    projectname: " WebSite Sample ",
+    url: " https: //myeed.netlify.app/",
+    description:
+      "This project build using react js and html css  technologies. ",
+    technology: "react ",
+    tools: "vs code  and github, git",
+  },
 
   {
     id: 1,

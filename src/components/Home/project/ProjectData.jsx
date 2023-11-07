@@ -7,6 +7,16 @@ const ProjectData = [
     technology: "react ",
     tools: "vs code  and github, git",
   },
+
+  {
+    id: 8,
+    projectname: "MERN full CRUd App ",
+    url: "https://surendramernapp.onrender.com/",
+    description: "This project build using MERN technologies. ",
+    technology: "react ",
+    tools: "vs code  and github, git",
+  },
+
   {
     id: 1,
     projectname: "Portfolio Web prtotype ",
@@ -39,14 +49,7 @@ const ProjectData = [
     technology: " HTML5 CSS JS ",
     tools: " ",
   },
-  {
-    id: 5,
-    projectname: "MicroStrip Patch Antenna",
-    url: " ",
-    description: " ",
-    technology: " ",
-    tools: " ",
-  },
+
   {
     id: 6,
     projectname: "Console Based ATM",

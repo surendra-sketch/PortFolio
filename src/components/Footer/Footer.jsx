@@ -82,12 +82,20 @@ const Footer = () => {
               <h3>Contact Me</h3>
               {/* <hr /> */}
               <li>
-                <a target="_/blank" href="/contact" className="footer-link">
+                <a
+                  target="_/blank"
+                  href="mailto:surendraji252525@gmail.com"
+                  className="footer-link"
+                >
                   <MdEmail /> Mail us
                 </a>
               </li>
               <li>
-                <a target="_/blank" href="/contact" className="footer-link">
+                <a
+                  // target="_/blank"
+                  href="tel:+918953107593"
+                  className="footer-link"
+                >
                   <MdLocalPhone /> Call us
                 </a>
               </li>

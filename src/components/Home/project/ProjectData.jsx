@@ -10,7 +10,7 @@ const ProjectData = [
 
   {
     id: 8,
-    projectname: "MERN full CRUd App ",
+    projectname: "MERN full CRUD App ",
     url: "https://surendramernapp.onrender.com/",
     description: "This project build using MERN technologies. ",
     technology: "react ",

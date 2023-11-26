@@ -25,6 +25,15 @@ const ProjectData = [
     technology: "react ",
     tools: "vs code  and github, git",
   },
+  {
+    id: 10,
+    projectname: "Scroll Infinite",
+    url: "https://surendrascrollinfinite.netlify.app/",
+    description:
+      "This project build using react js and html css  technologies. ",
+    technology: "react ",
+    tools: "vs code  and github, git",
+  },
 
   {
     id: 1,
